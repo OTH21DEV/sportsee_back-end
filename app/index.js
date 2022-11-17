@@ -18,7 +18,7 @@ app.use(function (req, res, next){
 
 
 //TEST
-
+/*
 const whitelist = ["http://localhost:3000"]
 
 const corsOptions = {
@@ -32,8 +32,10 @@ const corsOptions = {
     credentials: true,
   }
 
-  app.use(cors(corsOptions))
-//
+  //
+  
+  */
+  app.use(cors())
 const port = 3000
 
 app.use(router)
