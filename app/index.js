@@ -5,6 +5,7 @@ const router = require('./routes')
 
 const app = express()
 app.use(cors())
+//add host and process.env.PORT to deploy in heroku
 const host = '0.0.0.0';
 const port = process.env.PORT || 3000
 const path = require ('path')
